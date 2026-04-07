@@ -1,8 +1,8 @@
 class Kubememo < Formula
   desc "Kubernetes operational memory with durable memos, runtime notes, and activity capture"
   homepage "https://kubememo.kubedeck.io"
-  url "https://github.com/KubeDeckio/KubeMemo/archive/refs/heads/main.tar.gz"
-  sha256 "116261d3d7314c79ccda948801c6149061d4e5f726bf848828dbf138626264b7"
+  url "https://github.com/KubeDeckio/KubeMemo/archive/refs/tags/v0.0.1-rc3.tar.gz"
+  sha256 "c86d2d274de8a0b7873ce831ed61a8b3f717d15988c85dabad0e3e2fd1b7ccec"
   license "MIT"
   depends_on "go" => :build
 
